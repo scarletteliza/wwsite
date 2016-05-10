@@ -1,3 +1,3 @@
 $(document).ready(function() {
-	console.log('connected');
+	$(".button-collapse").sideNav();
 });
