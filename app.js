@@ -5,7 +5,9 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+//STEP 1: DECLARE PAGE HERE
 var routes = require('./routes/index');
+var about = require('./routes/about');
 
 var app = express();
 
@@ -21,7 +23,10 @@ app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 app.use(cookieParser());  
 app.use(express.static(path.join(__dirname, 'public')));
 
+//STEP 2: USE ROUTE HERE
 app.use('/', routes);
+app.use('/about', about);
+//STEP 3: GO TO ROUTES
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

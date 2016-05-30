@@ -12,26 +12,92 @@
     <script type="text/javascript" src="javascripts/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="javascripts/materialize.min.js"></script>
     <script type="text/javascript" src="javascripts/index.js"></script>
-
+     <div id="heading"></div>
      <div id="navbar-fixed" class="navbar-fixed">
-      <nav style="background-color: #FFFFFF">
-        <a style="position: relative; z-index: 999; color: grey" href="#" data-activates="slide-out" class="button-collapse hide-on-med-and-up"><i class="material-icons">menu</i></a>
+      <nav style="background-color: #34050B">
+        <a style="position: relative; z-index: 999; color: white" href="#" data-activates="slide-out" class="button-collapse hide-on-med-and-up"><i class="material-icons">menu</i></a>
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo center hide-on-med-and-up"><img id="LogoBig" style="position:relative;" src="logos/sw.png" width="50px"></img></a>
-          <a href="#!" class="brand-logo left hide-on-small-only"><img id="LogoSmall" style="position:relative;" src="logos/sw.png" width="60px"></img></a>
           <ul id="nav-mobile" class="hide-on-small-only right">
-            <li>
-              <a href="/">home</a>
+            <li class="active">
+              <a class="white-text" href="/">Home</a>
             </li>  
+            <li>
+              <a class="white-text" href="/about">About</a>
+            </li>
+            <li>
+              <a class="white-text" href="/">Attorneys</a>
+            </li>
+            <li>
+              <a class="white-text" href="/">Contact</a>
+            </li>
           </ul>
         </div>
         <ul id="slide-out" class="side-nav">
+            <li class="active">
+              <a class="white-text" href="/">Home</a>
+            </li>
             <li>
-              <a href="/">home</a>
+              <a class="white-text" href="/about">About</a>
+            </li>
+            <li>
+              <a class="white-text" href="/">Attorneys</a>
+            </li>
+            <li>
+              <a class="white-text" href="/">Contact</a>
             </li>
         </ul>
       </nav>
     </div>
-
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+          <div class="caption left-align">
+            <h3>Left Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+          <div class="caption right-align">
+            <h3>Right Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="info col s12 m6 l6">
+           <div class="title valign-wrapper">
+             <p class="hometitle valign">Title One</p> 
+           </div>
+           <p class="hometext">Lorem ipsum dolor sit amet, vim te lorem aperiam, ex summo quando facilisis vim. Adhuc tibique te duo, sit ex impedit denique. Delenit perfecto voluptatum eu quo, ut decore everti deseruisse duo, legere platonem imperdiet eum cu. In eos stet aeque, qui ad facete delenit. Cu eum viderer sensibus, magna virtute mea id. Nibh suavitate reprehendunt an cum, no pro omittam perpetua mnesarchum. An case simul lobortis has, hinc dicunt his ex.</p>
+        </div>
+        <div class="info col s12 m6 l6">
+           <div class="title valign-wrapper">
+             <p class="hometitle valign">Title Two</p> 
+           </div>
+           <p class="hometext">Lorem ipsum dolor sit amet, vim te lorem aperiam, ex summo quando facilisis vim. Adhuc tibique te duo, sit ex impedit denique. Delenit perfecto voluptatum eu quo, ut decore everti deseruisse duo, legere platonem imperdiet eum cu. In eos stet aeque, qui ad facete delenit. Cu eum viderer sensibus, magna virtute mea id. Nibh suavitate reprehendunt an cum, no pro omittam perpetua mnesarchum. An case simul lobortis has, hinc dicunt his ex.</p>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="valign-wrapper row">
+      <p id="footertext" class="valign">Footer Text goes here.</p>
+    </div>
   </body>
 </html>

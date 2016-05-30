@@ -1,3 +1,73 @@
 html {
 	font-family: sans-serif;
+	background-color: #81010D;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+nav {
+	height: 50px !important;
+	line-height: 50px !important;
+	/*margin-top: 10% !important;*/
+	border-width: 0px !important;
+	position: relative !important;
+}
+
+p {
+	color: white;
+}
+
+#heading {
+	width: 100%;
+	height: 20%;
+	position: relative;
+	background-color: white;
+}
+
+.slider {
+	width: 70% !important;
+	margin: auto;
+	margin-top: 30px !important;
+}
+
+.info {
+	/*background-color: #34050B;*/
+	margin-top: 30px;
+	position: relative;
+}
+
+.hometext {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.title {
+	background-color: #34050B;
+	font-size: 16px;
+	font-weight: bold;
+	height: 40px;
+	position: relative;
+	width: 100%;
+}
+
+.hometitle {
+	margin: auto;
+}
+
+#footer {
+	background-color: #34050B;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 50px;
+}
+
+#footertext {
+	margin: auto;
 }
