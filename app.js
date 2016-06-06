@@ -8,6 +8,8 @@ var bodyParser = require('body-parser');
 //STEP 1: DECLARE PAGE HERE
 var routes = require('./routes/index');
 var about = require('./routes/about');
+var contact = require('./routes/contact');
+var attorneys = require('./routes/attorneys');
 
 var app = express();
 
@@ -26,6 +28,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 //STEP 2: USE ROUTE HERE
 app.use('/', routes);
 app.use('/about', about);
+app.use('/contact', contact);
+app.use('/attorneys', attorneys)
 //STEP 3: GO TO ROUTES
 
 // catch 404 and forward to error handler
